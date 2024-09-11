@@ -1,0 +1,24 @@
+{
+  "name": "node-bptemplate",
+  "version": "2.1.7",
+  "description": "A basic template that follows best practices for building new Node projects.",
+  "bin": {
+    "create-template": "./bin/cli.js"
+  },
+  "main": "lib/createSkeleton.js",
+  "files": [
+    "templates",
+    "bin",
+    "lib"
+  ],
+  "scripts": {
+    "start": "node lib/createSkeleton.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  }
+}

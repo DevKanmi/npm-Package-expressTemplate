@@ -31,7 +31,42 @@ create-template my-new-project
 ```
 This will copy the contents of the `templates` folder into the `my-new-project directory.`
 
-## Project Structure
+
+
+## Project Structure (Template) for Users
+
+When you run the `create-template` command, the following project structure will be generated:
+``` arduino
+project-root/
+│
+├── controllers/
+│   └── routeController.js
+│
+├── middlewares/
+│   └── middleware.js  // Common error handling to speed up the process
+│
+├── models/
+│   └── exampleSchema.js
+│
+├── routes/
+│   └── routeEx.js
+│
+├── tests/
+│   └── newFile.test.js
+│
+├── utils/
+│   ├── config.js
+│   └── logger.js  // Logging functions for error and info
+│
+├── .env
+├── app.js
+├── index.js
+├── package.json
+
+```
+
+
+## Project Structure(For Contributing)
 Here is an overview of the project structure:
 
 - `bin/:` Contains the CLI entry point (cli.js).

@@ -74,7 +74,7 @@ Here is an overview of the project structure:
 - `templates/:` The folder whose contents will be copied to the destination 
  directory.
 - `package.json:` Defines the project’s metadata, dependencies, and scripts.
-- `Dependencies used` : `fs-extra` helped in creating, copying, and manipulating files and directories when Creating new projects with your template.
+- `Dependencies used` : `fs-extra` helped in creating, copying, and manipulating files and directories when Creating new projects with the template.
 
 ## Development
 ### Setup

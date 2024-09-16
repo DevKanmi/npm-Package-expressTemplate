@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # npm-Package-expressTemplate
-=======
 How to use Package
 
 IF FOLDER IS MANUALLY CREATED
@@ -24,4 +22,3 @@ IF YOU WANT A FOLDER WHERE THE TEMPLATE IS TO BE ADDED TO TO BE CREATED FOR YOU
   To run server using Nodemon, Simply run
     "npm run dev"
 
->>>>>>> f4c446c (First Package Commit)
